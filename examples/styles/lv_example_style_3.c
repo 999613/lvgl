@@ -16,9 +16,9 @@ void lv_example_style_3(void)
 
     /*Add border to the bottom+right*/
     lv_style_set_border_color(&style, lv_palette_main(LV_PALETTE_BLUE));
-    lv_style_set_border_width(&style, 5);
+    lv_style_set_border_width(&style, 5);    边框宽度
     lv_style_set_border_opa(&style, LV_OPA_50);
-    lv_style_set_border_side(&style, LV_BORDER_SIDE_BOTTOM | LV_BORDER_SIDE_RIGHT);
+    lv_style_set_border_side(&style, LV_BORDER_SIDE_BOTTOM | LV_BORDER_SIDE_RIGHT);    显示边框的显示方向 只显示底部和右侧
 
     /*Create an object with the new style*/
     lv_obj_t * obj = lv_obj_create(lv_scr_act());
