@@ -21,11 +21,11 @@ void lv_example_style_1(void)
     lv_style_set_y(&style, 80);
 
     /*Create an object with the new style*/
-    lv_obj_t * obj = lv_obj_create(lv_scr_act());
-    lv_obj_add_style(obj, &style, 0);
+    lv_obj_t * obj = lv_obj_create(lv_scr_act());    //创建一个新对象obj，其父亲为当前活动屏幕
+    lv_obj_add_style(obj, &style, 0);            //为新对象添加样式
 
-    lv_obj_t * label = lv_label_create(obj);
-    lv_label_set_text(label, "Hello");
+    lv_obj_t * label = lv_label_create(obj);        //创建一个新对象label，其父对象为obj
+    lv_label_set_text(label, "Hello");            //向新对象添加文字
 }
 
 #endif
