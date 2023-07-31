@@ -17,7 +17,7 @@ void lv_example_style_4(void)
     /*Add outline*/
     lv_style_set_outline_width(&style, 2);
     lv_style_set_outline_color(&style, lv_palette_main(LV_PALETTE_BLUE));
-    lv_style_set_outline_pad(&style, 8);
+    lv_style_set_outline_pad(&style, 8);    设置外边框与内对象内容的距离
 
     /*Create an object with the new style*/
     lv_obj_t * obj = lv_obj_create(lv_scr_act());
