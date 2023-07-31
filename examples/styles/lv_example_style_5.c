@@ -1,6 +1,6 @@
 #include "../lv_examples.h"
 #if LV_BUILD_EXAMPLES
-
+设置阴影
 /**
  * Using the Shadow style properties
  */
