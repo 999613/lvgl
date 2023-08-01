@@ -11,7 +11,7 @@ void lv_example_style_10(void)
     /* A default transition
      * Make it fast (100ms) and start with some delay (200 ms)*/
     static lv_style_transition_dsc_t trans_def;
-    lv_style_transition_dsc_init(&trans_def, props, lv_anim_path_linear, 100, 200, NULL);
+    lv_style_transition_dsc_init(&trans_def, props, lv_anim_path_linear, 100, 200, NULL);参数：初始化的指针，起始状态的样式指针，动画路径函数，动画时间，延时时间，回调函数
 
     /* A special transition when going to pressed state
      * Make it slow (500 ms) but start  without delay*/
